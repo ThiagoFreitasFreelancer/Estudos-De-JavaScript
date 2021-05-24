@@ -1,0 +1,31 @@
+
+tipos primitivos: string, number, undefined, null, boolean, symbol
+operadores aritimeticos: +, -, /, %, **, =, ==, ===, ++, --
+operadores de atribuição: +=, -=, /=, *=, %=, **=
+
+precedencia:(), **, *, /, %, +, -
+
+serve para por um arquivo JavaScript no HTML, da forma antiga
+<script src="index.js">
+
+Não usar mais var
+
+com var é possivel redeclarar uma mesma variavel
+
+var nome = 'rola'
+var nome = 'thola'
+
+isso é um comportamento indesejavel
+
+sempre usar let ou const
+
+coversão:
+
+    parseInt(string) ou Number(string)
+    parseFloat() ou Number(string)
+    parseString()
+
+Locura que da pra fazer com string
+
+    nao serve pra muita coisa mais da
+    let = umaString = "Um \"texto""; 
