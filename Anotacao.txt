@@ -29,3 +29,7 @@ Locura que da pra fazer com string
 
     nao serve pra muita coisa mais da
     let = umaString = "Um \"texto""; 
+
+
+string.replace(/ /g, "") para remover espaços em branco de uma string
+a espreção procura espaços em branco / /g e subistitui por uma strimg
