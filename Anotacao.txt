@@ -33,3 +33,12 @@ Locura que da pra fazer com string
 
 string.replace(/ /g, "") para remover espaços em branco de uma string
 a espreção procura espaços em branco / /g e subistitui por uma strimg
+
+Array -> para adicionar no inicio   Array.unshift()
+         para adicionar no fim  Array.push()
+         para remover do fim Array.pop()
+         para remover do inicio Array.shift()
+
+         As mesmas propriedades de string funciona
+         de certas formas no Array, como: slice, lenght
+         
