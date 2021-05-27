@@ -41,4 +41,14 @@ Array -> para adicionar no inicio   Array.unshift()
 
          As mesmas propriedades de string funciona
          de certas formas no Array, como: slice, lenght
-         
+
+
+Arrio Function serve pra facilitar vida
+Nao precisa por o nome function
+const nomeeDaFuncao = () =>{ 
+    return;
+ };
+
+quando voce tem UM so valor nao precisa dos parenteses
+const retorno = ``;
+const nomeDaFuncao = parametro => parametro + retorno;       
