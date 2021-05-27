@@ -1,5 +1,11 @@
 
 tipos primitivos: string, number, undefined, null, boolean, symbol
+tipos primitivos quando sao passados seu valor é COPIADO
+
+tipos mutaveis: array, object, function
+tipos mutaveis quando seu valor é passados, PASSAM A APONTAR PARA O MESMO INDEREÇO
+de memoria
+
 operadores aritimeticos: +, -, /, %, **, =, ==, ===, ++, --
 operadores de atribuição: +=, -=, /=, *=, %=, **=
 
@@ -41,6 +47,20 @@ Array -> para adicionar no inicio   Array.unshift()
 
          As mesmas propriedades de string funciona
          de certas formas no Array, como: slice, lenght
+        
+        Para copiar um array para outro
+        a = []
+        b = [1,2,3]
+        a = [...b] copia o valor de b para a (spred)
+        
+        tambem fuinciona para object
+
+        a = {}
+        b = {
+            nome: `jose`,
+            sobrenome: `pedro`
+        }
+        a = {...b} copia o valor de b para a (spred)
 
 
 Arrio Function serve pra facilitar vida
