@@ -11,6 +11,18 @@ operadores de atribuição: +=, -=, /=, *=, %=, **=
 
 precedencia:(), **, *, /, %, +, -
 
+operadores logicos: &&, ||, !
+
+operadores de comparação: <, <=, >, >=, ==, ===, !=, !== 
+
+Valores avaliados como falso no JavaScript:
+    false
+    0
+    `` "" '': string vazia
+    null / undefined
+    NaN
+QUALQUER COISA DIFERENTE DOS VALORES A CIMA É TRUE
+
 serve para por um arquivo JavaScript no HTML, da forma antiga
 <script src="index.js">
 
@@ -71,4 +83,47 @@ const nomeeDaFuncao = () =>{
 
 quando voce tem UM so valor nao precisa dos parenteses
 const retorno = ``;
-const nomeDaFuncao = parametro => parametro + retorno;       
+const nomeDaFuncao = parametro => parametro + retorno;
+
+exemplos na Aula21
+JavaScript tem o que se chama de Avaliação de curto-circuito
+    por exemplo com o operador &&:
+        ele retorna o VALOR que gerou o false da expressão
+        
+        console.log(`Maria` && NaN && `Pedro`); Retorna NaN
+        console.log(50 && undefined && `ronbaldo`); Retorna undefined
+
+        da mesma forma com uma função
+
+        const vaiExecutar = false;
+        const functionQualquer(){}
+
+        podemos fazer
+
+        vaiExecutar && functionQualquer();
+
+        a função so vai executar caso o valor de vaiExecutar seja TRUE
+
+    por exemplo com o operador ||:
+
+        funciona da mesma forma
+
+        console.log(`Maria` || NaN || `Pedro`); Retorna Maria, por que
+        é o primeiro verdadeiro
+
+        console.log(null || undefined || `ronbaldo` || true); Retorna ronbaldo,
+        por que é o primeiro verdadeiro
+
+        da para fazer valores default
+
+        const corUsuario = null;
+        const corPadrao = corUsuario || `preto`;
+        
+        corPadrao recebera o valor de `preto`
+
+        const corUsuario = `vermelho`;
+        const corPadrao = corUsuario || `preto`;
+
+        corPadrao recebera o valor de `vermelho`,
+        por que o vermelho é o primeiro verdadeiro
+    
