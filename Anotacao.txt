@@ -13,7 +13,11 @@ precedencia:(), **, *, /, %, +, -
 
 operadores logicos: &&, ||, !
 
+operador ternario: ? :
+
 operadores de comparação: <, <=, >, >=, ==, ===, !=, !== 
+
+operador em arrays: aula 29 (...)rest => pega o resto, (...)spread => espelha
 
 Valores avaliados como falso no JavaScript:
     false
