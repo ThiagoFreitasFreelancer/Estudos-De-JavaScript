@@ -131,11 +131,25 @@ JavaScript tem o que se chama de Avaliação de curto-circuito
         corPadrao recebera o valor de `vermelho`,
         por que o vermelho é o primeiro verdadeiro
     
-    Tipo for no array
+    Tipos for no array
 
         for padrão = for (let i = 0; i < n ; i++){}
 
-        for in = for qualquernome in array ou objeto {
+        for in = for (let qualquernome in string ou array ou objeto..) {
 
-                console.log(qualquernome) // retorna o ELEMENTO no indece
+                console.log(qualquernome) // retorna o INDECE do vetor
         }
+
+        for of = for (let qualquerNome of stirng ou array){
+            
+            console.log(qualquerNome) // devolve o ELEMENTO no indece
+
+        }
+
+        O MAIS USAVEL DENTRE ELES É O FOREACH
+
+            array.forEach( functino (valor, indice, array){
+
+                console.log(valor, indice, array)
+
+            })
