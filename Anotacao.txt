@@ -19,6 +19,8 @@ operadores de comparação: <, <=, >, >=, ==, ===, !=, !==
 
 operador em arrays: aula 29 (...)rest => pega o resto, (...)spread => espelha
 
+o CONTINUE do JavaScript pula para proxima iteração do laço quando encontrada
+
 Valores avaliados como falso no JavaScript:
     false
     0
