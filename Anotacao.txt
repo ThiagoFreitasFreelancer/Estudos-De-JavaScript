@@ -1,5 +1,5 @@
 
-tipos primitivos: string, number, undefined, null, boolean, symbol
+tipos primitivos: string, number, undefined, null, boolean, symbol, NaN
 tipos primitivos quando sao passados seu valor é COPIADO
 
 tipos mutaveis: array, object, function
@@ -20,6 +20,10 @@ operadores de comparação: <, <=, >, >=, ==, ===, !=, !==
 operador em arrays: aula 29 (...)rest => pega o resto, (...)spread => espelha
 
 o CONTINUE do JavaScript pula para proxima iteração do laço quando encontrada
+
+instanceof verifica se uma variavel é uma instantia de determinada class
+
+exemplo: (data instanceof Date)
 
 Valores avaliados como falso no JavaScript:
     false
@@ -156,3 +160,10 @@ JavaScript tem o que se chama de Avaliação de curto-circuito
                 console.log(valor, indice, array)
 
             })
+
+
+    try(){
+
+    }cath{
+
+    }finally
